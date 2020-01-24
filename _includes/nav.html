@@ -10,14 +10,11 @@
 		<p>
 		{% if site.nav_link_one_link %}<a href="{{ site.nav_link_one_link }}">{% else %}<a href="{{ "#" }}">{% endif %}
 		{% if site.nav_link_one_name %}{{ site.nav_link_one_name }}</a>{% else %}{{ "Setup in _config.yml" }}</a>{% endif %}
-		</p>
-		<p>
+		<br>
 		{% if site.nav_link_two_link %}<a href="{{ site.nav_link_two_link }}">{% else %}<a href="{{ "#" }}">{% endif %}
 		{% if site.nav_link_two_name %}{{ site.nav_link_two_name }}</a>{% else %}{{ "x" }}</a>{% endif %}
-		</p>
-		<p>
-		{% if site.nav_link_three_link %}<a href="{{ site.nav_link_three_link }}">{% else %}<a href="{{ "#" }}">{% endif %}
-		{% if site.nav_link_three_name %}{{ site.nav_link_three_name }}</a>{% else %}{{ "x" }}</a>{% endif %}
+		<br>
+		{% if site.nav_link_three_link %}<a href="{{ site.nav_link_three_link }}">{% else %}{% endif %}
 		</p>
 	</h5>
 
