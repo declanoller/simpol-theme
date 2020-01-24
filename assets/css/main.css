@@ -330,9 +330,9 @@ code {
 }
 .page-wrapper .inner-wrapper {
   width:100%;
-  overflow: auto;
   z-index: auto;
 }
+/*overflow: auto;*/
 footer p {
   font-size: .6em;
 }
