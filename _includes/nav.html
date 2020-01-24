@@ -3,7 +3,8 @@
 		<h1>{% if site.title %}{{ site.title }}{% else %}{{ site.title | default: site.github.repository_name }}{% endif %}
 		</h1>
 	</a>
-	<p>{% if site.subtitle %}{{ site.subtitle }}{% else %}{{ site.subtitle | default: site.github.project_tagline }}{% endif %}
+	<p>
+		{% if site.subtitle %}{{ site.subtitle }}{% else %}{{ site.subtitle | default: site.github.project_tagline }}{% endif %}
 	</p>
 	<p class="smaller mobile-hide">
 		{% if site.nav_link_one_link %}<a href="{{ site.nav_link_one_link }}">{% else %}<a href="{{ "https://github.com/scottmathson/simpol-theme#readme" }}">{% endif %}
