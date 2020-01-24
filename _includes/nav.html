@@ -6,8 +6,8 @@
 	<p>
 		{% if site.subtitle %}{{ site.subtitle }}{% else %}{{ site.subtitle | default: site.github.project_tagline }}{% endif %}
 	</p>
-	<p class="smaller mobile-hide">
-		{% if site.nav_link_one_link %}<a href="{{ site.nav_link_one_link }}">{% else %}<a href="{{ "https://github.com/scottmathson/simpol-theme#readme" }}">{% endif %}
+	<h5>
+	{% if site.nav_link_one_link %}<a href="{{ site.nav_link_one_link }}">{% else %}<a href="{{ "#" }}">{% endif %}
 		{% if site.nav_link_one_name %}{{ site.nav_link_one_name }}</a>{% else %}{{ "Setup in _config.yml" }}</a>{% endif %}
 		&bull;
 		{% if site.nav_link_two_link %}<a href="{{ site.nav_link_two_link }}">{% else %}<a href="{{ "#" }}">{% endif %}
@@ -15,5 +15,7 @@
 		&bull;
 		{% if site.nav_link_three_link %}<a href="{{ site.nav_link_three_link }}">{% else %}<a href="{{ "#" }}">{% endif %}
 		{% if site.nav_link_three_name %}{{ site.nav_link_three_name }}</a>{% else %}{{ "x" }}</a>{% endif %}
+	</h5>
+	<p class="smaller mobile-hide">
 	</p>
 </nav>
