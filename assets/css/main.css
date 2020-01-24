@@ -385,6 +385,7 @@ footer p {
 .custom-row-img {
   max-width: 250px;
   max-height: 250px;
+  display: inline-block;
 }
 
 
