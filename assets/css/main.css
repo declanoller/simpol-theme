@@ -49,7 +49,14 @@ h2 {
 }
 h3,
 h4,
-h5,
+h5 {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 500;
+  color: #222;
+  letter-spacing: .5px;
+	font-size: 1.5em;
+  line-height: 1.3em;
+}
 h6 {
   font-weight: 400;
   color: #333;
